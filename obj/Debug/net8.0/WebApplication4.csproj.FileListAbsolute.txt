@@ -148,3 +148,4 @@ C:\Users\janek\RiderProjects\WebApplication4\WebApplication4\obj\Debug\net8.0\re
 C:\Users\janek\RiderProjects\WebApplication4\WebApplication4\obj\Debug\net8.0\WebApplication4.pdb
 C:\Users\janek\RiderProjects\WebApplication4\WebApplication4\obj\Debug\net8.0\WebApplication4.genruntimeconfig.cache
 C:\Users\janek\RiderProjects\WebApplication4\WebApplication4\obj\Debug\net8.0\ref\WebApplication4.dll
+C:\Users\janek\RiderProjects\WebApplication4\WebApplication4\obj\Debug\net8.0\WebApplication4.sourcelink.json

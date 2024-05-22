@@ -5,11 +5,17 @@ namespace WebApplication4.Dtos;
 
 public class ClientTripDto
 {
-    [Required]
-    public int IdClient { get; set; }
-    [Required]
-    public int IdTrip { get; set; }
-    [Required] 
-    public int RegisteredAt { get; set; }
-    public int? PaymentDate { get; set; }
+    public required int IdClient { get; set; }
+    [MaxLength(120)]
+    public required string FirstName { get; set; }
+    [MaxLength(120)]
+    public required string LastName { get; set; }
+    [MaxLength(120)]
+    [EmailAddress]
+    public required String Email { get; set; }
+    [MaxLength(120)]
+    public required String Telephone { get; set; }
+    [MaxLength(120)]
+    public required String Pesel { get; set; }
+    public String PaymentTime { get; set; }
 }
